@@ -1,0 +1,8 @@
+:root{--bg:#071029;--panel:#0f1724;--muted:#9aa6c3;--accent:#ffcc00}
+html,body,#__next{height:100%;margin:0}
+body{font-family:Inter,Segoe UI,Roboto,system-ui,Arial;background:linear-gradient(180deg,#071029,#07203a);color:#eaf2ff}
+.app{display:flex;gap:20px;padding:20px;height:100vh}
+.panel{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border-radius:12px;padding:14px;box-shadow:0 6px 24px rgba(0,0,0,0.6)}
+.canvasWrap{flex:1;min-width:720px;display:flex;flex-direction:column}
+.hudWrap{width:360px}
+button{cursor:pointer}
